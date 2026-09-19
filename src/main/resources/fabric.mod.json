@@ -5,7 +5,7 @@
   "name": "Gamemode1",
   "description": "Adds useful legacy command forms alongside their modern equivalents.",
   "icon": "assets/icon.png",
-  "license": "CC0-1.0",
+  "license": "Apache-2.0",
   "environment": "*",
   "entrypoints": {
     "main": ["dev.gamemode1.LegacyCommands"],
