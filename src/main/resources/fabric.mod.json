@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "gamemode1",
+  "version": "${version}",
+  "name": "Gamemode1",
+  "description": "Adds useful legacy command forms alongside their modern equivalents.",
+  "icon": "assets/icon.png",
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.gamemode1.LegacyCommands"],
+    "client": ["dev.gamemode1.LegacyCommandsClient"],
+    "modmenu": ["dev.gamemode1.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
